@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+div{
+    height: 50vh;
+    width: 50vw;
+    background-color: red; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+input:invalid {
+   border: 2px dashed red;
+    }
+
+  
