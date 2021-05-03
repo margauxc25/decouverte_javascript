@@ -12,18 +12,15 @@
 
     <div class="test"> 
 
-        <input type="text" name="myname" id="myname"  pattern="[a-zA-ZÀ-ÿ]"/>
-        <input type="button" onclick="show_alert()" value="Envoyer" />
-    
+        <form class="error">
+        <input type="name" name="name" id="name"  pattern="^[( )a-zA-Z]+$"/>
+        <input type="submit" id="send" onclick="show_alert()" value="Envoyer" />
+        </form>
 
     </div>
 
-    
-
-
-
-
-    
+        
+        
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

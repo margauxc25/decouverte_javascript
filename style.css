@@ -15,8 +15,8 @@ div{
     align-items: center;
     }
 
-input:invalid {
-   border: 2px dashed red;
+.error input:invalid {
+   border: 2px solid red;
     }
 
   

@@ -17,7 +17,7 @@ test.addEventListener("click", function () {
 
     function show_alert()
     {
-    var name = document.getElementById('myname').value;
+    var name = document.getElementById('name').value;
     alert("Bonjour "+ name + "!");
     } 
 
