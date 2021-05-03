@@ -18,7 +18,15 @@ test.addEventListener("click", function () {
     function show_alert()
     {
     var name = document.getElementById('name').value;
-    alert("Bonjour "+ name + "!");
+    alert("Bonjour"+ name + "!");
     } 
 
-    
+    function show_alert() {
+        const nom = document.getElementById("name").value;
+        const lettres = /^[a-zA-Z]+$/;
+        const autorise = nom.match(lettres);
+        
+        if (autorise) {
+        alert("Formulaire envoyé")
+        }
+        }
