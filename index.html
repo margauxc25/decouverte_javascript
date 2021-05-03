@@ -13,7 +13,8 @@
     <div class="test"> 
 
         <form class="error">
-        <input type="name" name="name" id="name"  pattern="^[( )a-zA-Z]+$" title="Uniquement Majuscules et minuscules"/>
+        <input type="name" name="name" id="name"  pattern="^[a-zA-Z]+$" title="Uniquement Majuscules et minuscules"/>
+        <span class="baderror" id="errorname"></span>
         <input type="submit" id="send" onclick="show_alert()" value="Envoyer" />
         </form>
 

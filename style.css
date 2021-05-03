@@ -15,10 +15,19 @@ div{
     align-items: center;
     }
 
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
 .error input:invalid {
    border: 2px solid red;
     }
 
+    .baderror{
+        color: #D8000C;
+        background-color: #ffffff;
+    }
 
 
   

@@ -29,4 +29,8 @@ test.addEventListener("click", function () {
         if (autorise) {
         alert("Formulaire envoyé")
         }
+
+        else {
+            document.getElementById('errorname').innerHTML="C'est faux recommence !"
         }
+    }
