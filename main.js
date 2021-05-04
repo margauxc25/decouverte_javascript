@@ -23,7 +23,7 @@ test.addEventListener("click", function () {
 
     function show_alert() {
         const nom = document.getElementById("name").value;
-        const lettres = /^[a-zA-Zä-ÿÄ-ÿ]+$/;
+        const lettres = /^[a-zA-Zä-ÿÄ-Ÿ]+$/;
         const autorise = nom.match(lettres);
         const msg = document.getElementById('errorname')
         
