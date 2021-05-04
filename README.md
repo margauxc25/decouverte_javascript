@@ -8,4 +8,4 @@
 
  Exercice 3 : Réaliser un input et un bouton. Dans l’input, l’utilisateur doit entrer son nom, au clic afficher “Bonjour sonNom !” dans une alert.
 
- Exercice 4 : Toujours dans cette input, si l’utilisateur rentre un chiffre, des caractères spéciaux ,des espaces ou tout autre chose qui n’est pas du texte, afficher un message d’erreursous l’input et mettre la bordure en rouge. Si tout est ok, afficher un message devalidation.
+ Exercice 4 : Toujours dans cette input, si l’utilisateur rentre un chiffre, des caractères spéciaux ,des espaces ou tout autre chose qui n’est pas du texte, afficher un message d’erreursous l’input et mettre la bordure en rouge. Si tout est ok, afficher un message de validation.
